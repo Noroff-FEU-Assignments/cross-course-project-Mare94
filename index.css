@@ -3,6 +3,9 @@
 body {
     font-family: 'Segoe UI', 'Arial', 'sans-serif'
 }
-body{
+body {
     background-color: #1b203d;
+}
+header {
+    background-color: white;
 }
