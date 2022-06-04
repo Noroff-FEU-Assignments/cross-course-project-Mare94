@@ -10,8 +10,8 @@ body {
     background-color: #1b203d;
 }
 
-.content-wrap {
-    max-width: 900px ;
+content-wrap {
+    max-width: 899px ;
 }
 
 .logo {
@@ -87,4 +87,8 @@ img {
     max-width: 40%;
     max-height: 40%;
     padding-bottom: 15px;
+}
+
+@media (min-width: 1000px) {
+  
 }
