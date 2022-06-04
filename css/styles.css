@@ -5,6 +5,10 @@ body {
     background-color: #1b203d;
 }
 
+.content-wrap {
+    width: 900px;
+}
+
 header {
     background-color: white;
     padding: 30px;
