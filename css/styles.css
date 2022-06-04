@@ -15,8 +15,9 @@ body {
 }
 
 .logo {
-    max-width: 10%;
-    max-height: 10%;
+    width: 10%;
+    height: 10%;
+    float: left;
 }
 
 header {
