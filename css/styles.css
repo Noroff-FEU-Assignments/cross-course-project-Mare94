@@ -59,6 +59,19 @@ footer {
 h1, h2 {
     color: white;
     text-shadow: 10%;
+    font-size: 2rem;
+}
+
+h1 {
+    padding-left: 50px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+h2 {
+    padding-left: 50px;
+    padding-top: 30px;
+    padding-bottom: 20px;
 }
 
 img {
