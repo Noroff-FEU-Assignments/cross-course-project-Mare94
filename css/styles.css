@@ -10,24 +10,26 @@ body {
     background-color: #1b203d;
 }
 
-content-wrap {
-    max-width: 899px ;
+.content-wrap { 
+    width: 90% ;
 }
 
 .logo {
-    width: 15%;
-    height: 15%;
+    width: 45%;
+    height: 45%;
     float: left;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
+    padding-left: 30px;
 }
 
 header {
     background-color: white;
     padding: 30px;
+    padding-bottom: 80px;
     margin: -6px
 }
 
-.sticky-header{
+sticky-header{
     position: sticky;
     top: 1px;
     padding: auto;
@@ -35,6 +37,11 @@ header {
 
 nav li {
     display: inline-block;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-bottom: 15px;
+    float: right block;
+
 }
 
 nav a {
@@ -89,6 +96,34 @@ img {
     padding-bottom: 15px;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 900px) {
+  body {
+      background-image: url(/images/bluespace.jpg);
+      background-repeat: no-repeat cover;
+  }
   
+    h1 {
+      padding-top: 350px;
+      padding-bottom: 20px;
+  }
+
+  nav li {
+    display: inline;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-bottom: 15px;
+}
+
+h1, h2 {
+    color: white;
+    text-shadow: 10%;
+    font-size: 3rem;
+}
+
+img {
+    max-width: 40%;
+    max-height: 40%;
+    padding-bottom: 15px;
+}
+
 }
