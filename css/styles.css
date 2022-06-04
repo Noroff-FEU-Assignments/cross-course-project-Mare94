@@ -11,11 +11,12 @@ body {
 }
 
 .content-wrap {
-    width: 900px;
+    max-width: 900px ;
 }
 
 .logo {
-    max-width: 20%;
+    max-width: 10%;
+    max-height: 10%;
 }
 
 header {
