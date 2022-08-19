@@ -77,17 +77,6 @@ h1, h2 {
     text-shadow: 10%;
 }
 
-h1 {
-    padding-left: 50px;
-    padding-top: 100px;
-    padding-bottom: 20px;
-}
-
-h2 {
-    padding-left: 50px;
-    padding-top: 30px;
-    padding-bottom: 20px;
-}
 
 img {
     max-width: 40%;
@@ -97,7 +86,7 @@ img {
 
 @media (min-width: 900px) {
   body {
-      background-image: url(/images/blackspace.jpg);
+      background-image: url(/images/darkkeyboard.jpeg);
       background-repeat: no-repeat cover;
   }
   
