@@ -76,10 +76,13 @@ footer {
 fieldset{
   margin-top: 15px;  
   text-align: left;
+  height: 50%;
+  width: 80%;
+  border-radius: 40px;
 }
 
-fieldset input{
-    text-align: left;
+.buy{
+    margin-left: 20px;
 }
 
 .form__input{
