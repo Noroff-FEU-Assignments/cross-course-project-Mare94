@@ -72,28 +72,13 @@ footer {
     padding: 100px;
 }
 
-h1, h2 {
+body{
     color: white;
-    text-shadow: 10%;
-    font-size: 2rem;
+
 }
 
-h1 {
-    padding-left: 50px;
-    padding-top: 100px;
-    padding-bottom: 20px;
-}
-
-h2 {
-    padding-left: 50px;
-    padding-top: 30px;
-    padding-bottom: 20px;
-}
-
-img {
-    max-width: 40%;
-    max-height: 40%;
-    padding-bottom: 15px;
+.form__input{
+   display: block; 
 }
 
 @media (min-width: 900px) {
