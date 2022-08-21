@@ -8,6 +8,7 @@ html {
 body {
     font-family: 'Segoe UI', Arial, sans-serif;
     background-color: #1b203d;
+    color: white;
 }
 
 .content-wrap { 
@@ -72,11 +73,9 @@ footer {
     padding: 100px;
 }
 
-body{
-    color: white;
-
+fieldset{
+  margin-top: 10px;  
 }
-
 .form__input{
    display: block; 
 }
