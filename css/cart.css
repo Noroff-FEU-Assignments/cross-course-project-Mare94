@@ -74,8 +74,14 @@ footer {
 }
 
 fieldset{
-  margin-top: 10px;  
+  margin-top: 15px;  
+  text-align: left;
 }
+
+fieldset input{
+    text-align: left;
+}
+
 .form__input{
    display: block; 
 }
