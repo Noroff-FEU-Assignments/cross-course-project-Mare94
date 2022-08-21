@@ -89,13 +89,8 @@ h2 {
 }
 
 input{
-    align: left;
     padding: 2px;
     margin-bottom: 200px;
-}
-
-.form__input{
-row: 50px;
 }
 
 @media (min-width: 900px) {
