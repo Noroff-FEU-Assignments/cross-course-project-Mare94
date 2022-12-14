@@ -23,7 +23,7 @@ function validateForm(event){
     } else{
         messageError.style.display = "block";
     }
-    if(checkLength(address.value, 25) === true){
+    if(checkLength(address.value, 5) === true){
         addressError.style.display = "none";
     } else{
         addressError.style.display = "block";
