@@ -22,6 +22,11 @@ body {
     padding-left: 30px;
 }
 
+.img-size{
+    width: 125px;
+    height: 140px;
+}
+
 header {
     /*background-color: white;*/
     opacity: 90%;
@@ -30,11 +35,6 @@ header {
     margin: -6px
 }
 
-sticky-header{
-    position: sticky;
-    top: 1px;
-    padding: auto;
-}
 
 nav li {
     display: inline-block;
@@ -70,24 +70,86 @@ footer {
 
 .nav-footer {
     float: right;
-    padding: 100px;
+    padding: 10px;
 }
 
-fieldset{
-  margin-top: 15px;  
-  text-align: left;
-  height: 50%;
-  width: 80%;
-  border-radius: 40px;
-}
 
 .buy{
     margin-left: 20px;
 }
 
 .form__input{
-   display: block; 
+   /*display: block;*/ 
 }
+
+/* CSS for shopping cart*/
+
+h3{
+    font-size: 32px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+}
+
+.col-40{
+    flex: 55%;
+}
+
+.col-80{
+    flex: 80%;
+}
+
+.col-40,
+.col-80{
+    padding: 0 16px;
+}
+
+.cart-container{
+    background-color: #1b203d;
+    opacity: 80%;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+}
+
+input[type=text]{
+    width: 40%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+label{
+    margin-bottom: 10px;
+    display: block;
+}
+
+.btn{
+    background-color: #04aa6d;
+    color: white;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn:hover{
+    background-color: #45a049;
+}
+
+span.price{
+    float: right;
+    
+}
+
+
 
 @media (min-width: 900px) {
   body {
