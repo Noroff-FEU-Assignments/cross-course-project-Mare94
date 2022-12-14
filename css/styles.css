@@ -27,11 +27,6 @@ header {
     margin: -6px
 }
 
-sticky-header{
-    position: sticky;
-    top: 1px;
-    padding: auto;
-}
 
 nav li {
     display: inline-block;
