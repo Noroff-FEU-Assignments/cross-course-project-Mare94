@@ -1,7 +1,7 @@
 function displayError(message){
 
     if(!message){
-        message = "Unknown error!";
+        message = "An error has occured!";
     }
 
     return `<div class="error">${message}</div>`;
