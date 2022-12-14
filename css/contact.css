@@ -11,13 +11,13 @@ body {
 }
 
 .content-wrap { 
-    width: 90% ;
+    width: 100% ;
 }
 
 .logo {
     width: 35%;
     height: 35%;
-    float: left;
+    
     padding-bottom: 20px;
     padding-left: 30px;
 }
@@ -56,7 +56,8 @@ nav a {
 }
 
 nav a:hover {
-    text-decoration: underline;
+    /*text-decoration: underline;*/
+    background-color: #ff6200;
 }
 
 .active {
