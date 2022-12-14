@@ -57,8 +57,3 @@ function validateEmail(email){
     const patternMatches = regEx.test(email);
     return patternMatches;
 }
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
