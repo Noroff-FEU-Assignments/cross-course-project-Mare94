@@ -11,13 +11,12 @@ body {
 }
 
 .content-wrap { 
-    width: 90% ;
+    width: 100% ;
 }
 
 .logo {
     width: 35%;
     height: 35%;
-    float: left;
     padding-bottom: 20px;
     padding-left: 30px;
 }
@@ -38,7 +37,7 @@ sticky-header{
 nav li {
     display: inline-block;
     padding-top: 20px;
-    padding-left: 50px;
+    padding-left: 20px;
     padding-bottom: 15px;
     /*float: right block;*/
 
@@ -49,7 +48,7 @@ nav a {
     color: black;
     text-decoration: none;
     padding: 15px;
-    margin-left: 15px;
+    margin-left: 5px;
     margin-top: 20px;
     border-radius: 20%;
     font-style: bold;
@@ -101,7 +100,7 @@ img {
   }
   
     h1 {
-      padding-top: 500px;
+      padding-top: 100px;
       padding-bottom: 20px;
       font-size: 46px;
   }
