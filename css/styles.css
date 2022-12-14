@@ -15,8 +15,8 @@ body {
 }
 
 .logo {
-    width: 45%;
-    height: 45%;
+    width: 40%;
+    height: 40%;
     float: left;
     padding-bottom: 50px;
     padding-left: 30px;
@@ -91,8 +91,8 @@ h2 {
 }
 
 img {
-    max-width: 40%;
-    max-height: 40%;
+    width: 20%;
+    height: 20%;
     padding-bottom: 15px;
 }
 
