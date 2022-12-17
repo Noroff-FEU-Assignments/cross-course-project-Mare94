@@ -1,4 +1,4 @@
-const form = document.querySelector("#contactForm");
+const form = document.querySelector("#cartForm");
 const fullName = document.querySelector("#fname");
 const firstNameError = document.querySelector("#fullNameError");
 const address = document.querySelector("#adr");
