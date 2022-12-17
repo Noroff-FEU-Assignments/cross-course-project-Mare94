@@ -11,19 +11,17 @@ body {
 }
 
 .content-wrap { 
-    width: 90% ;
+    width: 100% ;
 }
 
 .logo {
     width: 45%;
     height: 45%;
-    float: left;
-    padding-bottom: 50px;
+    padding-bottom: 0px;
     padding-left: 30px;
 }
 
 header {
-    background-color: white;
     padding: 30px;
     padding-bottom: 80px;
     margin: -6px
@@ -63,13 +61,20 @@ nav a:hover {
     background-color: #228b22;
 }
 
+.games{
+    display: inline-block;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-bottom: 15px;
+}
+
 footer {
     padding-top: 50px;
 }
 
 .nav-footer {
     float: right;
-    padding: 100px;
+    padding: 10px;
 }
 
 h1, h2 {
@@ -103,7 +108,7 @@ img {
   }
   
     h1 {
-      padding-top: 350px;
+      padding-top: 100px;
       padding-bottom: 20px;
   }
 
@@ -121,9 +126,14 @@ h1, h2 {
 }
 
 img {
-    max-width: 40%;
-    max-height: 40%;
+    width: 15%;
+    height: 15%;
     padding-bottom: 15px;
+}
+
+.logo{
+    width: 30%;
+    height: 30%;
 }
 
 }
