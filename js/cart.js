@@ -1,6 +1,6 @@
 const form = document.querySelector("#cartForm");
 const fullName = document.querySelector("#fname");
-const firstNameError = document.querySelector("#fullNameError");
+const fullNameError = document.querySelector("#fullNameError");
 const address = document.querySelector("#adr");
 const addressError = document.querySelector("#addressError");
 const email = document.querySelector("#email");
@@ -13,10 +13,10 @@ const cityError = document.querySelector("#cityError");
 function validateForm(event){
     event.preventDefault();
 
-    if(checkLength(fullName.value, 0) === true){
-        firstNameError.style.display = "none";
+    if(checkLength(fullName.value, 4) === true){
+        fullNameError.style.display = "none";
     } else{
-        firstNameError.style.display = "block";
+        fullNameError.style.display = "block";
     }
     if(checkLength(city.value, 10) === true){
         cityError.style.display = "none";
