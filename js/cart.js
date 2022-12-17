@@ -18,7 +18,7 @@ function validateForm(event){
     } else{
         firstNameError.style.display = "block";
     }
-    if(checkLength(city.value, 10) === true){
+    if(checkLength(city.value, 3) === true){
         cityError.style.display = "none";
     } else{
         cityError.style.display = "block";
