@@ -7,6 +7,10 @@ const email = document.querySelector("#email");
 const emailError = document.querySelector("#emailError");
 const city = document.querySelector("#city");
 const cityError = document.querySelector("#cityError");
+const state = document.querySelector("#state");
+const stateError = document.querySelector("#stateError");
+const postCode = document.querySelector("#zip");
+const postCodeError = document.querySelector("#zipError");
 
 // function to run thru and check if len matches or display error msg
 
@@ -18,7 +22,7 @@ function validateForm(event){
     } else{
         fullNameError.style.display = "block";
     }
-    if(checkLength(city.value, 10) === true){
+    if(checkLength(city.value, 3) === true){
         cityError.style.display = "none";
     } else{
         cityError.style.display = "block";
@@ -32,6 +36,16 @@ function validateForm(event){
         emailError.style.display = "none";
     } else{
         emailError.style.display = "block";
+    }
+    if(checkLength(state.value, 4) === true){
+        stateError.style.display = "none";
+    } else{
+        stateError.style.display = "block";
+    }
+    if(checkLength(postCode.value, 4) === true){
+        postCodeError.style.display = "none";
+    } else{
+        postCodeError.style.display = "block";
     }
 
     console.log("it works");
