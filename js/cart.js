@@ -1,5 +1,5 @@
 const form = document.querySelector("#cartForm");
-const fullName = document.querySelector("#fullName");
+const fullName = document.querySelector("#fName");
 const fullNameError = document.querySelector("#fullNameError");
 const address = document.querySelector("#adr");
 const addressError = document.querySelector("#addressError");
