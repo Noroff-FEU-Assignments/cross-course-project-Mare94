@@ -5,13 +5,15 @@ const address = document.querySelector("#adr");
 const addressError = document.querySelector("#addressError");
 const email = document.querySelector("#email");
 const emailError = document.querySelector("#emailError");
+const city = document.querySelector("#city");
+const cityError = document.querySelector("#ecityError");
 
 // function to run thru and check if len matches or display error msg
 
 function validateForm(event){
     event.preventDefault();
 
-    if(checkLength(firstName.value, 0) === true){
+    if(checkLength(fullName.value, 0) === true){
         firstNameError.style.display = "none";
     } else{
         firstNameError.style.display = "block";
