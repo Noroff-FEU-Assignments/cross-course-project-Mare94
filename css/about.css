@@ -15,24 +15,18 @@ body {
 }
 
 .logo {
-    width: 35%;
-    height: 35%;
+    width: 45%;
+    height: 45%;
     padding-bottom: 20px;
     padding-left: 30px;
 }
 
 header {
-    background-color: white;
     padding: 30px;
     padding-bottom: 80px;
     margin: -6px
 }
 
-sticky-header{
-    position: sticky;
-    top: 1px;
-    padding: auto;
-}
 
 nav li {
     display: inline-block;
@@ -68,7 +62,7 @@ footer {
 
 .nav-footer {
     float: right;
-    padding: 100px;
+    padding: 10px;
 }
 
 h1, h2 {
