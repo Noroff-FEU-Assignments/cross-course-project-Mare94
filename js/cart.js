@@ -1,6 +1,6 @@
 const form = document.querySelector("#cartForm");
 const fullName = document.querySelector("#fullName");
-const firstNameError = document.querySelector("#fullNameError");
+const fullNameError = document.querySelector("#fullNameError");
 const address = document.querySelector("#adr");
 const addressError = document.querySelector("#addressError");
 const email = document.querySelector("#email");
