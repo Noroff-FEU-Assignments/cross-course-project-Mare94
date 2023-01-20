@@ -12,7 +12,7 @@ const options = {
 
 async function getGameData(){
     try{
-        const response = await fetch(corsEnabledUrl, options);
+        const response = await fetch(url);
         const data = await response.json();
 
         console.log(data);
@@ -24,14 +24,12 @@ async function getGameData(){
             console.log(data[i].prices.price);
 
             gamesContainer.innerHTML += `<a href="details.html?name=${data[i].name}" class='result'>
-                                            <h2>Game: ${data[i].name}</h2>
-                                            <img src="${data[i].images.src}" />
-                                            <h3>${data[i].short_description}</h3>
-                                            <h3>${data[i].price_html}</h3>
-
-            
-            
-                                         </a>`;
+                                            <h3>Game: ${data[i].name}</h3>
+                                            <div> <img src="${data[i].images[0].src}" /></div>
+                                            <h4>${data[i].short_description}</h4>
+                                            <h4>${data[i].price_html}</h4></a>
+                                            
+                                            `;
 
 
         }
