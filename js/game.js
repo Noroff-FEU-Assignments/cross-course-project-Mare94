@@ -1,5 +1,8 @@
+const gamesContainer = document.querySelector(".games");
 const url = "https://powerofflower.online/cms-ma1/flower-power/wordpress/wp-json/wc/store/products";
 const corsEnabledUrl = "https://noroffcors.onrender.com/" + url;
+
+// needed to get api call
 
 const options = {
     method: 'GET'
