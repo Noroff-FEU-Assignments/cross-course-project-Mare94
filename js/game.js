@@ -23,6 +23,15 @@ async function getGameData(){
             console.log(data[i].images.src);
             console.log(data[i].prices.price);
 
+            gamesContainer.innerHTML += `<a href="details.html?name=${data[i].name}" class='result'>
+                                            <h2>Game: ${data[i].name}</h2>
+                                            <p>${data[i].images.src}</p>
+                                            <p>${data[i].short_description}</p>
+                                            <p>${data[i].price_html}</p>
+
+            
+            
+                                         </a>`;
 
 
         }
