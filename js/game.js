@@ -9,11 +9,19 @@ const options = {
 
 async function getGameData(){
     try{
-        const response = await fetch(corsEnabledUrl);
+        const response = await fetch(corsEnabledUrl, options);
         const data = await response.json();
 
         console.log(data);
         
+        for(let i = 0; i < 8; i++){
+
+            console.log(data[i].name);
+            console.log(data[i].images.src);
+
+
+
+        }
 
     }
     catch(error){
