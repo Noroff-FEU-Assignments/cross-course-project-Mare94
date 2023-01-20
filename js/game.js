@@ -9,11 +9,11 @@ const options = {
 
 async function getGameData(){
     try{
-        const response = await fetch(corsEnabledUrl, options);
+        const response = await fetch(corsEnabledUrl);
         const data = await response.json();
 
         console.log(data);
-        console.log(response);
+        
 
     }
     catch(error){
