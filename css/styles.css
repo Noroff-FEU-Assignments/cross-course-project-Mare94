@@ -61,6 +61,15 @@ nav a:hover {
     padding-bottom: 15px;
 }
 
+.result{
+    margin: 1rem;
+    padding: 1rem;
+    max-width: 250px;
+    background: gray;
+    border: 1px gray;
+    border-radius: 1px;
+}
+
 footer {
     padding-top: 50px;
 }
