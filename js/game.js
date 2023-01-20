@@ -18,6 +18,7 @@ async function getGameData(){
 
             console.log(data[i].name);
             console.log(data[i].images.src);
+            console.log(data[i].prices.price);
 
 
 
