@@ -43,6 +43,7 @@ async function getGameData(){
 
 getGameData();
 
+
 async function getUsedGameData(){
     try{
         const response = await fetch(url);
