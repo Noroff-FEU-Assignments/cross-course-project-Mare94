@@ -9,7 +9,7 @@ const options = {
     method: 'GET'
 };
 
-
+// first call for API data to create new games info
 
 async function getGameData(){
     try{
@@ -43,6 +43,7 @@ async function getGameData(){
 
 getGameData();
 
+// second call for API data to create used game info
 
 async function getUsedGameData(){
     try{
