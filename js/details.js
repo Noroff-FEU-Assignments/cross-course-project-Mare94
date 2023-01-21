@@ -33,12 +33,15 @@ getGameDetail();
 function createHtml(details){
     
         detailContainer.innerHTML += `
-        <div class="result">  
-            <h1>${details.name}</h1>
+        <div">  
+            <h1>${details.name} </h1>
             <div> <img src="${details.images[0].src}" class="game-img" alt="${details.name}" /></div>
+            <div class="result">
             <div>${details.description}</div>
+            <div>${details.short_description}</div>
             <div>Stock: ${details.add_to_cart.maximum}</div>
             <div>Price: ${details.price_html}</div>
+            </div>
         </div>
 
         `;

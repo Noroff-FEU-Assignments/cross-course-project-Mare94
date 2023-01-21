@@ -63,14 +63,16 @@ nav a:hover {
 
 }
 
+
 .result{
     margin: 1rem;
     padding: 1rem;
-    width: 250px;
-    background: darkblue;
+    max-width: 550px;
+    background: darkcyan;
     border: 1px gray;
     border-radius: 1px;
     text-decoration: none;
+    font-style: bold;
 }
 
 footer {
@@ -107,8 +109,8 @@ h2 {
 
 
 .game-img{
-    height: 150%;
-    width: 150%;
+    height: 75%;
+    width: 75%;
 }
 
 @media (max-width: 899px) {
