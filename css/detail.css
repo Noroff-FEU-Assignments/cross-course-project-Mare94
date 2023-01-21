@@ -12,6 +12,7 @@ body {
 
 .content-wrap { 
     width: 100% ;
+    padding-top: -10px;
 }
 
 .logo {
@@ -55,7 +56,7 @@ nav a:hover {
 }
 
 .game-detail{
-    padding-top: 20px;
+    padding-top: 0px;
     padding-left: 50px;
     padding-bottom: 15px;
     display: flex;
@@ -96,7 +97,7 @@ h3, h4{
 
 h1 {
     padding-left: 50px;
-    padding-top: 20px;
+    padding-top: 1px;
     padding-bottom: 20px;
 }
 
@@ -106,7 +107,10 @@ h2 {
     padding-bottom: 20px;
 }
 
-
+.back-nav{
+    border-bottom: 1px solid var(--white);
+    text-decoration-color: white;
+}
 
 .game-img{
     height: 75%;
