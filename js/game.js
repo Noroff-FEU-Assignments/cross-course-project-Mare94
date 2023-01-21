@@ -26,7 +26,7 @@ async function getGameData(){
 
             gamesContainer.innerHTML += `<a href="details.html?name=${data[i].name}" class='result'>
                                             <h3>Game: ${data[i].name}</h3>
-                                            <div> <img src="${data[i].images[0].src}" class="game-img" /> </div>
+                                            <div> <img src="${data[i].images[0].src}" class="game-img" alt="${data[i].name}" /> </div>
                                             <h4>${data[i].short_description}</h4>
                                             <h4>${data[i].price_html}</h4></a>
                                             
