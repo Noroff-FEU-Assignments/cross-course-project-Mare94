@@ -20,10 +20,10 @@ and the handling is also done using WP API call.
 
 ## Built With
 
-
 - HTML
 - CSS
 - JS
+- WP rest API
 
 ## Getting Started
 
